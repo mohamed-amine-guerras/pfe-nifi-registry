@@ -1,6 +1,0 @@
-flows:
-  4aba969a-be11-48f0-8f7e-08e755915af5: {ver: 2, file: Data-Ingestion-Flow.snapshot,
-    comments: 'test: making some tests', author: anonymous, created: 1592396820837,
-    flowName: Data-Ingestion-Flow, flowDesc: ''}
-layoutVer: 1
-bucketId: 1cc94dcc-545d-44a5-b734-d69eefef8c32
