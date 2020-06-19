@@ -1,0 +1,6 @@
+flows:
+  19a6803d-b5d5-4b65-bf33-361cb91c00c2: {ver: 1, file: Data-Ingestion-Flow.snapshot,
+    comments: '', author: anonymous, created: 1592594071216, flowName: Data-Ingestion-Flow,
+    flowDesc: ''}
+layoutVer: 1
+bucketId: fdfcaa08-5a62-414c-bb3b-1a689fec34be
