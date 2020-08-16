@@ -1,6 +1,6 @@
 flows:
-  19a6803d-b5d5-4b65-bf33-361cb91c00c2: {ver: 4, file: Data-Ingestion-Flow.snapshot,
-    comments: 'refactor: update processors names', author: anonymous, created: 1594553223628,
+  19a6803d-b5d5-4b65-bf33-361cb91c00c2: {ver: 5, file: Data-Ingestion-Flow.snapshot,
+    comments: 'feat: remove failure relationship', author: anonymous, created: 1597575165505,
     flowName: Data-Ingestion-Flow, flowDesc: ''}
 layoutVer: 1
 bucketId: fdfcaa08-5a62-414c-bb3b-1a689fec34be

@@ -46,42 +46,6 @@
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
-          "bends" : [ {
-            "x" : 1470.9704284667969,
-            "y" : 599.7219848632812
-          }, {
-            "x" : 1470.9704284667969,
-            "y" : 649.7219848632812
-          } ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "005580de-6fab-3986-988f-c17d9a928bb7",
-            "id" : "40b7e570-1bc2-3f1f-9550-87586d63e1bb",
-            "name" : "Convert To CSV",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "005580de-6fab-3986-988f-c17d9a928bb7",
-          "identifier" : "572fbc19-85a0-3494-90fa-ff14474a0d6c",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "005580de-6fab-3986-988f-c17d9a928bb7",
-            "id" : "40b7e570-1bc2-3f1f-9550-87586d63e1bb",
-            "name" : "Convert To CSV",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -763,7 +727,7 @@
         "identifier" : "005580de-6fab-3986-988f-c17d9a928bb7",
         "inputPorts" : [ ],
         "labels" : [ ],
-        "name" : "Retrieve data from Database and Convert it to JSON",
+        "name" : "POS Predictions",
         "outputPorts" : [ ],
         "position" : {
           "x" : 1600.0,
@@ -1074,7 +1038,7 @@
           "type" : "org.apache.nifi.processors.standard.PutDatabaseRecord",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ ],
+          "autoTerminatedRelationships" : [ "failure" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
             "artifact" : "nifi-standard-nar",
